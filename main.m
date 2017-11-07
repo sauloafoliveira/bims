@@ -5,7 +5,7 @@ I = imread('volleyball.jpg');
 J = imread('volleyball_multiop.jpg');
 
 
-score_add  = bims( I, J, 9, 'CC', 'add');
+score_add  = bims( I, J, 9, 'CC', 'avg');
 
 score_mul  = bims( I, J, 9, 'CC', 'mul');
 
